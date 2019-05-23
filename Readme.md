@@ -1,4 +1,4 @@
-# Servicer + Client side React components in Asp.NET MVC 4 using Create-React-App and Parcel
+# Server + Client side React components in Asp.NET MVC 4 using Create-React-App and Parcel
 
 Getting started guide: https://reactjs.net/getting-started/aspnet.html
 
@@ -63,9 +63,9 @@ import { HelloWorld } from "./HelloWorld";
 
 3.  Now create a bundle using parcel: `parcel build src/server.ts --out-file bundle.server.js`
 
-    > Tip: Add to this `package.json` scripts: `"bl": "rm -rf dist && parcel build src/server.ts --out-file bundle.server.js"`.
+    > Tip: Add this to your `package.json` scripts: `"bl": "rm -rf dist && parcel build src/server.ts --out-file bundle.server.js"`.
     >
-    > Now you can write `npm run bl` (build library)
+    > Now you can simply write `npm run bl` (build library)
 
 4.  Copy `dist/bundle.server.js` to the `Scripts` folder in MVC project.
 
